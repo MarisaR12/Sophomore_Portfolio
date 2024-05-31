@@ -1,3 +1,42 @@
-h1{
-  color:red;
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url('portbackground.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#heading{
+  font-size: 5.5em;
+  letter-spacing: 0.3cm;
+  color:#000000;
+  font-family:Modak;
+  font-weight:400;
+  font-style:normal;
+  text-align:center;
+  padding:5px;
+}
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center;
+  font-size: 2em;
+}
+li{
+  display:inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navi{
+  background-color:white;
 }
