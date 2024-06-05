@@ -15,7 +15,7 @@ body{
   font-weight:400;
   font-style:normal;
   text-align:center;
-  padding:5px;
+  padding:4px;
 }
 .modak-regular {
   font-family: "Modak", system-ui;
@@ -39,4 +39,7 @@ ul {
 }
 #navi{
   background-color:white;
+  padding: 20px;
+  position: relative;
+  text-align:center;
 }
