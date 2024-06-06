@@ -2,11 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
-body{
-  background-image: url('portbackground.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
+
 #heading{
   font-size: 5.5em;
   letter-spacing: 0.3cm;
@@ -42,4 +38,71 @@ ul {
   padding: 20px;
   position: relative;
   text-align:center;
+  font-size: 1.3em;
+  word-spacing: 5cm;
+}
+a:hover{
+  background-color:#e1b2c2;
+  color:white;
+  position:relative;
+
+}
+
+a:link{
+  color:black; 
+}
+a:visited{
+  color:#aa6e81;
+}
+#subheading{
+  font-size: 5.5em;
+  letter-spacing: 0.3cm;
+  color:#000000;
+  font-family:Modak;
+  font-weight:400;
+  font-style:normal;
+  text-align:center;
+  padding:55px;
+}
+#labs{
+  
+  font-size: 2em;
+  padding:20px;
+}
+.container{
+  box-shadow: 1px 3px 30px 1px #ffffff;
+  color: #000000;
+  height:2500px;
+ margin: 15px;
+  overflow:hidden;
+  text-align: center;
+
+}
+.wave{
+  border: 1px dashed black;
+  height:50px;
+  width: 80%;
+  position: relative;
+  left:10%;
+  transition: height 4s;
+  display:block;
+  overflow:hidden;
+  
+}
+u1{
+  transition: height 4s;
+}
+#u1:hover{
+  height:1500px;
+  z-index: 1;
+}
+b{
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center;
+  font-size: 2em;
+}
+iframe{
+  float: left;
 }
